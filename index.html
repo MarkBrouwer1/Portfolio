@@ -136,35 +136,46 @@
       </div>
 
 
-              <!-- Modal Trigger -->
-                      <!-- Modal Structure -->
-                      <div id="modalMark" class="modal modal-fixed-footer">
-                        <div class="modal-content black-text">
-                          <h4>Contact Mark Brouwer</h4>
-                          <div class="row">
-                            <form class="col s12">
-                              <div class="row">
-                                <div class="input-field col s6">
-                                  <input id="input_text" type="text" data-length="25">
-                                  <label for="input_text">Name</label>
-                                </div>
-                              </div>
-                              <div class="row">
-                                <div class="input-field col s12">
-                                  <textarea id="textarea1" class="materialize-textarea" data-length="500"></textarea>
-                                  <label for="textarea1">Message</label>
-                                </div>
-                              </div>
-                              <input type="checkbox" id="test5" />
-                               <label for="test5">Request Resume</label>
-                            </form>
-                          </div>
-                        </div>
-                        <div class="modal-footer">
-                          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Send</a>
-                          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Back</a>
-                        </div>
-                      </div>
+<!-- Modal Trigger -->
+  <!-- Modal Structure -->
+  <div id="modalMark" class="modal modal-fixed-footer">
+    <div class="modal-content black-text">
+      <h4>Contact Mark Brouwer at markbrouwer1@hotmail.com</h4>
+      <div class="row">
+       <form class="col s12" method="POST" name="contactform"action="contact.php">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="name" name="name" type="text" required="required">
+              <label for="name">Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" name="email"  type="email" required="required">
+              <label for="email" data-error="Invalid">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="message"  name="message"  class="materialize-textarea" required="required"></textarea>
+              <label for="message">Message</label>
+            </div>
+          </div>
+          <div class="row">
+              <button class="btn waves-effect waves-light" type="submit" value="Submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <!--<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Send</a>-->
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Back</a>
+    </div>
+  </div>
+
+
 
 <!-- First Row -->
 <div class="row ">            
