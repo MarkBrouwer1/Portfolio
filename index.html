@@ -50,7 +50,7 @@
           
 
             <script>
-             new Vivus('my-svg', {duration: 200}, myCallback);
+             new Vivus('my-svg', {duration: 300}, myCallback);
             </script>
 
 
@@ -91,9 +91,10 @@
 
  <!-- About -->   
  <div id="About" class="section white-text z-depth-1-half scrollspy grey darken-4">
-
+              <div class="divider"></div>
   <div class="row section">
     <h4 class="center section ">About Me</h4>
+
           
       <div class="col s6 m6 l6">
         <img class="responsive-img" src="logo/Mark.jpg">
@@ -110,6 +111,8 @@
         <a href="mailto:markbrouwer1@hotmail.com" class="waves-effect amber waves-light btn-large tooltipped" data-position="right" data-delay="50" data-tooltip="markbrouwer1@hotmail.com"><i class="material-icons left">email</i>Contact Me</a><br>
       </div>
 
+
+
   </div>
 </div>
 
@@ -118,7 +121,7 @@
 <div class="row grey darken-4">
   <div class="white-text">
 
-
+         <div class="divider"></div>
               <h4 class="section center"> Skills </h4>
               <p class="center"> IMD teaches a wide range of skills. Some departments where I have gained some skills include the following:</p>
               <div class="row">
@@ -153,7 +156,7 @@
                
 
               <div class="row">
-
+              <div class="divider"></div>
                 <h4 class="section center"> Experience </h4>
                 <p class="center"> Quality Assurance software tester at <a href="http://www.youi.tv/">You.i TV</a>
                 for 2 consecutive summers. Working on Treehouse and Corus apps during summer 2015 on the platforms of iOS and Android. Working on TBS and TNT as a software tester in summer 2016. I also did the motion design for the settings pages for both TBS and TNT using Adobe After Effects and the You.i Engine. These apps were built on tvOS and Amazon Fire TV. Afterwards moving on to work on NBA app on PS3, PS4 and XBOXONE.
@@ -190,24 +193,20 @@
 <!-- ABout -->
 
 <!-- About -->   
-	 <div id="Work" class="white-text scrollspy section grey">
-            <div class="row">
-              <div class="col s12">
-            	<h5 class="center">Portfolio</h5>
-            </div>
-            </div>
-   </div>
+<div id="Work" class="white-text scrollspy section grey darken-4">
+  <div class="row">
+  	<h4 class="center light">Portfolio</h4>
+  </div>
+
+</div>
 <!-- ABout -->
 <!-- About -->   
- <div class="white-text scrollspy grey darken-2 section">
-  <div class="">
-
-
+ <div class="white-text scrollspy grey darken-3 section">
       <div class="row center">
-        <h5 class="light grey-text">Recent Projects</h5>
+        <h5 class="grey-text">Recent Projects</h5>
       </div>
 
-
+  <div class="divider"></div>
 
 
 
@@ -246,7 +245,7 @@
 
           <ul class="collapsible grey lighten-1" data-collapsible="accordion">
               <li>
-                <div class="collapsible-header grey lighten-1"><i class="material-icons">list</i></div>
+                <div class="collapsible-header grey lighten-1"><i class="mdi mdi-chevron-down"></i></div>
 
                 <div class="collapsible-body grey lighten-1">
                   <table class="highlight">
@@ -420,7 +419,7 @@ starting point is 10 centimeters underwater and 600cm away from Dale. The next p
 
                  <ul class="collapsible grey lighten-1" data-collapsible="accordion">
                   <li>
-                    <div class="collapsible-header grey lighten-1"><i class="material-icons">list</i></div>
+                    <div class="collapsible-header grey lighten-1"><i class="mdi mdi-chevron-down"></i></div>
 
                     <div class="collapsible-body grey lighten-1">
                       <table class="highlight">
@@ -494,18 +493,60 @@ starting point is 10 centimeters underwater and 600cm away from Dale. The next p
       <div id="modal3" class="modal" style="height:85%;">
         <div class="modal-content black-text center">
           <h4>Aura Visualizer</h4>
+              <p>As more virtual display screens appear in public spaces to advertise various products, it offers the opportunity to use these displays as canvases for computer generated art. These interactive displays are able to induce emotions and provoke thought by allowing people to manipulate the graphics or installation with their bodies and other physical features. <br></p>
            <img class="responsive-img medium" src="images/dev/AV/AV_Card-01.png">
-           <p>Interactive immersive environment. Developed with the X-box kinectV2, with Processing3 using Thomas Legellings X-box kinectV2 library</p>
+           <p class="left-align"> Our main mission was to create an interactive environment that displays the users expressions in a synthetic pulsing aura shape.The team was motivated to visualize representations of us and users emotions using the Xbox Kinect, we planned out 5 main goals:
+              <br> - Allow people to visualize their emotions <br> - Create a unique and satisfying experience for users <br> - Demonstrate the effects our outwardly projected emotions can have on others<br> - Encourage users to interact <br> - Properly communicate what the exhibit is trying to convey</p>
            
-            <div class="col s12 m12 l12">
+            <div class="col s6 m6 l6">
              <img class="responsive-img materialboxed" src="images/dev/AV/AV_Setup_Card-01.png">
-             <p> Here is te required setup</p>
            </div>
-           <div class="col s6 m6 l6">
+             <div class="col s6 m6 l6">
+             <table>
+              <thead>
+                <tr>
+                    <th data-field="id">Required Setup:</th>
+                    <th data-field="meter"></th>
+                    <th data-field="foot"></th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Full Kinect capture area</td>
+                  <td>6 Meters</td>
+                  <td>19.7 Feet</td>
+                </tr>
+                <tr>
+                  <td>Projector to Floor Height</td>
+                  <td>3 Meters</td>
+                  <td>9.8 Feet</td>
+                </tr>
+                <tr>
+                  <td>Ideal facial recognition area</td>
+                  <td>0.5 Meters</td>
+                  <td>1.6 Feet (closest distance)</td>
+                </tr>
+                <tr>
+                  <td>Desk / Table height</td>
+                  <td>0.8 Meters</td>
+                  <td>2.6 Feet</td>
+                </tr>
+                <tr>
+                  <td>Distance from projector to screen</td>
+                  <td>5.4 Meters</td>
+                  <td>17.7 Feet</td>
+                </tr>
+              </tbody>
+            </table>
+           </div>
+           <div class="col s12 m12 l12">
              <img class="responsive-img materialboxed" src="images/dev/AV/AV_Explanation-01.png">
+             <p>One main feature we had was idenfication of expression from facial recognition the kinects provides us with. The Kinect could detect specific features of the face and how they were oriented. We looked at a variety of face expressions and observed how these features were oriented for each. We then researched the most reconized colours that would represent the expressions we were trying to convey. By determining how open the eyes were, the orientation of the mouth, and if it was open or closed. With these features we were able to create representative aura display for 3 main expressions; Happy, Sad and Angry.</p>
            </div>
            <div class="col s6 m6 l6">
              <img class="responsive-img materialboxed" src="images/dev/AV/AV_Explanation2-01.png">
+             <p></p>
            </div>
            <div class="col s12 m12 l12">
              <img class="responsive-img materialboxed" src="images/dev/AV/AV_Explanation3-01.png">
@@ -568,7 +609,7 @@ starting point is 10 centimeters underwater and 600cm away from Dale. The next p
 
               <ul class="collapsible grey lighten-1" data-collapsible="accordion">
                   <li>
-                    <div class="collapsible-header grey lighten-1"><i class="material-icons">list</i></div>
+                    <div class="collapsible-header grey lighten-1"><i class="mdi mdi-chevron-down"></i></div>
 
                     <div class="collapsible-body grey lighten-1">
                       <table class="highlight">
@@ -687,7 +728,7 @@ starting point is 10 centimeters underwater and 600cm away from Dale. The next p
       </div>
        <ul class="collapsible grey lighten-1" data-collapsible="accordion">
                   <li>
-                    <div class="collapsible-header grey lighten-1"><i class="material-icons">list</i></div>
+                    <div class="collapsible-header grey lighten-1"><i class="mdi mdi-chevron-down"></i></div>
 
                     <div class="collapsible-body grey lighten-1">
                       <table class="highlight">
