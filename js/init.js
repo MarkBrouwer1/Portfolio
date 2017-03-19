@@ -43,9 +43,22 @@ var banner = document.querySelector('.banner');
 var bannerVideo = document.querySelector('.banner__video');
 
 
-
-
-
+$('.arrow').on("click", function (event) {
+    $('.arrow-img').toggleClass('rotate');
+    $('.arrow-img').toggleClass('rotate-reset');
+});
+$('.arrow2').on("click", function (event) {
+    $('.arrow-img').toggleClass('rotate2');
+    $('.arrow-img').toggleClass('rotate-reset2');
+});
+$('.arrow3').on("click", function (event) {
+    $('.arrow-img').toggleClass('rotate3');
+    $('.arrow-img').toggleClass('rotate-reset3');
+});
+$('.arrow4').on("click", function (event) {
+    $('.arrow-img').toggleClass('rotate4');
+    $('.arrow-img').toggleClass('rotate-reset4');
+});
 
 
 $('.carousel.carousel-slider').carousel({fullWidth: true});
