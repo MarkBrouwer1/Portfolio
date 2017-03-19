@@ -22,6 +22,24 @@
   transform: scale(1.1,1.1);
 }
 
+.goRight{
+  transition: all 0.5s;
+}
+
+.goRight:hover{
+  transition: all 0.5s;
+  transform: translate3d(5%,0,0);
+}
+
+.goLeft{
+  transition: all 0.5s;
+}
+
+.goLeft:hover{
+  transition: all 0.5s;
+  transform: translate3d(-5%,0,0);
+}
+
 
 
 /* Chevron FLipper*/
