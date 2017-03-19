@@ -18,7 +18,7 @@
 }
 
 .scaleUp:hover{
-  transition: all 0.5s ease-in-out;
+  transition: all 0.75s ease-in-out;
   transform: scale(1.1,1.1);
 }
 
@@ -27,7 +27,7 @@
 }
 
 .goRight:hover{
-  transition: all 0.5s ease-in-out;
+  transition: all 0.75s ease-in-out;
   transform: translate3d(5%,0,0);
 }
 
@@ -36,7 +36,7 @@
 }
 
 .goLeft:hover{
-  transition: all 0.5s ease-in-out;
+  transition: all 0.75s ease-in-out;
   transform: translate3d(-5%,0,0);
 }
 
@@ -47,7 +47,7 @@
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  transition: all 0.5s;
+  transition:all 0.5s;
 
 }
 
@@ -55,14 +55,14 @@
    transform: rotate(180deg);
    -webkit-transform: rotate(180deg);
    -ms-transform: rotate(180deg);
-   transition: all 0.5s;
+   transition:all 0.5s;
 }
 .rotate2{
 
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  transition: all 0.5s;
+  transition:all 0.5s;
 
 }
 
@@ -70,14 +70,14 @@
    transform: rotate(180deg);
    -webkit-transform: rotate(180deg);
    -ms-transform: rotate(180deg);
-   transition: all 0.5s;
+   transition:all 0.5s;
 }
 .rotate3{
 
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  transition: all 0.5s;
+  transition:all 0.5s;
 
 }
 
@@ -85,14 +85,14 @@
    transform: rotate(180deg);
    -webkit-transform: rotate(180deg);
    -ms-transform: rotate(180deg);
-   transition: all 0.5s;
+   transition:all 0.5s;
 }
 .rotate4{
 
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
-  transition: all 0.5s;
+  transition:all 0.5s;
 
 }
 
@@ -100,7 +100,7 @@
    transform: rotate(180deg);
    -webkit-transform: rotate(180deg);
    -ms-transform: rotate(180deg);
-   transition: all 0.5s;
+   transition:all 0.5s;
 }
 /* Chevron FLipper*/
 
