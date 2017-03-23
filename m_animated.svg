@@ -3,7 +3,7 @@
 
 <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 <path fill="none" stroke="#FFFFFF" stroke-width="18" stroke-miterlimit="10" d="M255.438,227.825L179.998,303L89,302L
-	209.388,181.695Z" class="ZEltGEhO_0"></path>
+	209.388,181.695Z" class="FIgnMiBQ_0"></path>
 <path fill="none" stroke="#FFFFFF" stroke-width="18" stroke-miterlimit="10" d="M255.438,227.825L302.699,180.683L424,302L
-	330,302Z" class="ZEltGEhO_1"></path>
-<style>.ZEltGEhO_0{stroke-dasharray:433 435;stroke-dashoffset:434;animation:ZEltGEhO_draw_0 5200ms ease-in-out 0ms infinite,ZEltGEhO_fade 5200ms linear 0ms infinite;}.ZEltGEhO_1{stroke-dasharray:438 440;stroke-dashoffset:439;animation:ZEltGEhO_draw_1 5200ms ease-in-out 0ms infinite,ZEltGEhO_fade 5200ms linear 0ms infinite;}@keyframes ZEltGEhO_draw{100%{stroke-dashoffset:0;}}@keyframes ZEltGEhO_fade{0%{stroke-opacity:1;}92.3076923076923%{stroke-opacity:1;}100%{stroke-opacity:0;}}@keyframes ZEltGEhO_draw_0{15.384615384615385%{stroke-dashoffset: 434}34.61538461538461%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}@keyframes ZEltGEhO_draw_1{15.384615384615385%{stroke-dashoffset: 439}34.61538461538461%{ stroke-dashoffset: 0;}100%{ stroke-dashoffset: 0;}}</style></svg>
+	330,302Z" class="FIgnMiBQ_1"></path>
+<style>.FIgnMiBQ_0{stroke-dasharray:433 435;stroke-dashoffset:434;animation:FIgnMiBQ_draw 1700ms ease-in-out 0ms forwards;}.FIgnMiBQ_1{stroke-dasharray:438 440;stroke-dashoffset:439;animation:FIgnMiBQ_draw 1700ms ease-in-out 300ms forwards;}@keyframes FIgnMiBQ_draw{100%{stroke-dashoffset:0;}}@keyframes FIgnMiBQ_fade{0%{stroke-opacity:1;}93.54838709677419%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
