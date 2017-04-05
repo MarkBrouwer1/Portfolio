@@ -30,7 +30,7 @@ var items = document.querySelectorAll(".timeline li");
  
 
 window.addEventListener("load", callbackFunc);
-window.addEventListener("scroll", callbackFunc);
+//window.addEventListener("scroll", callbackFunc);
 
 function callbackFunc() {
   for (var i = 0; i < items.length; i++) {
