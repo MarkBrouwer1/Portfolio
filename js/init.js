@@ -42,7 +42,10 @@
 var banner = document.querySelector('.banner');
 var bannerVideo = document.querySelector('.banner__video');
 
-
+$('.sparrow').on("click", function (event) {
+    $('.sparrow-img').toggleClass('sprotate');
+    $('.sparrow-img').toggleClass('sprotate-reset');
+});
 $('.arrow').on("click", function (event) {
     $('.arrow-img').toggleClass('rotate');
     $('.arrow-img').toggleClass('rotate-reset');

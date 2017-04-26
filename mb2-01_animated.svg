@@ -1,0 +1,20 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.0" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="500.001" y1="361.085" x2="500.001" y2="361.085">
+	<stop offset="0" style="stop-color:#EDEDED"></stop>
+	<stop offset="1" style="stop-color:#C2C2C2"></stop>
+</linearGradient>
+<path fill="none" stroke="url(#SVGID_1_)" stroke-width="5" stroke-miterlimit="10" d="M500,361.085" class="SMkvJCIs_0"></path>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="366.6074" y1="131.7798" x2="111.5402" y2="386.847">
+	<stop offset="0" style="stop-color:#EDEDED"></stop>
+	<stop offset="1" style="stop-color:#C2C2C2"></stop>
+</linearGradient>
+<path fill="none" stroke="url(#SVGID_2_)" stroke-miterlimit="10" d="M452.003,217.999l-136.408-35.031L279.19,45.88l-70.993-17.739
+	L56.78,179.947l55.266,206.588l206.59,55.266l151.296-151.295L452.003,217.999z M301.133,366.712l94.99-94.758l66.274,19.016
+	L319.184,434.182L301.133,366.712z M131.872,197.449l-67.48-18.053L207.695,35.724l18.504,67.397L131.872,197.449z M227.722,108.668
+	l34.263,124.8l128.64,36.909l-93.027,92.798l-127.96-34.233l-34.23-127.957L227.722,108.668z M311.515,187.083l136.352,35.016
+	l15.836,64.043l-197.639-56.705L212.509,34.372l62.607,15.644L311.515,187.083z M63.1,184.226l67.478,18.052l34.977,130.747
+	l130.747,34.978l18.053,67.477l-198.226-53.028L63.1,184.226z" class="SMkvJCIs_1"></path>
+<style>.SMkvJCIs_0{stroke-dasharray:0 2;stroke-dashoffset:1;animation:SMkvJCIs_draw 24990ms ease-in-out 0ms forwards;}.SMkvJCIs_1{stroke-dasharray:4671 4673;stroke-dashoffset:4672;animation:SMkvJCIs_draw 24990ms ease-in-out 10ms forwards;}@keyframes SMkvJCIs_draw{100%{stroke-dashoffset:0;}}@keyframes SMkvJCIs_fade{0%{stroke-opacity:1;}98.63013698630137%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
